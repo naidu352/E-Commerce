@@ -96,7 +96,7 @@ plt.figure()
 sns.boxplot(x='Region', y='Sales', data=df)
 plt.title("Region vs Sales")
 plt.show()
-
+print("hi")
 # 6. Bar Plot 
 category_sales = df.groupby('Category')['Sales'].sum()
 plt.figure()
