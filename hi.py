@@ -145,7 +145,7 @@ intercept = mean_y - slope * mean_x
 print("\nregression equation:")
 print("y =", slope, "* x +", intercept)
 
-
+plt.figure()
 plt.figure()
 sns.regplot(x='Quantity', y='Sales', data=df)
 plt.title("Regression Plot")
