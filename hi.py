@@ -14,7 +14,7 @@ print("rows:", len(df))
 print("columns:", len(df.columns))
 print("\nmissing values:\n", df.isnull().sum())
 
-
+print("hello")
 df = df.drop_duplicates()
 df.fillna(df.median(numeric_only=True), inplace=True)
 
