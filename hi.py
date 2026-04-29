@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
 df = pd.read_csv("ecommerce_sales_analysis.csv")
-
+hi
 print("rows:", len(df))
 print("columns:", len(df.columns))
 print("\nmissing values:\n", df.isnull().sum())
