@@ -138,6 +138,7 @@ mean_y = y.mean()
 
 num = ((x - mean_x) * (y - mean_y)).sum()
 den = ((x - mean_x) ** 2).sum()
+print("hi")
 
 slope = num / den
 intercept = mean_y - slope * mean_x
